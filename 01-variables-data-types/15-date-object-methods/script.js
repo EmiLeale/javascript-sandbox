@@ -36,7 +36,7 @@ x = Intl.DateTimeFormat('default', { month: 'long' }).format(d);
 
 x = d.toLocaleString('default', { month: 'short' });
 
-x = d.toLocaleString('default', {
+x = d.toLocaleString('pt-PT', {
   weekday: 'long',
   year: 'numeric',
   month: 'long',
@@ -44,7 +44,8 @@ x = d.toLocaleString('default', {
   hour: 'numeric',
   minute: 'numeric',
   second: 'numeric',
-  timeZone: 'America/New_York',
+  timeZone: 'Europe/Lisbon',
 });
+
 
 console.log(x);
